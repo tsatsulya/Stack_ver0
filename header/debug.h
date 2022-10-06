@@ -16,4 +16,4 @@ enum debug_modes {
     ({                                                      \
             if (mode <= DEBUG_MODE)                         \
                 my_func;                                    \
-    })  
+    })

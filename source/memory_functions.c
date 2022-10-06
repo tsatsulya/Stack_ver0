@@ -1,12 +1,12 @@
 #include "memory_functions.h"
 
-void* realloc_(void* ptr, size_t new_size) {
+void* realloc_(void* ptr, size_t new_size) { // TODO: name recalloc or something
     
     // (ptr)
 
     size_t old_size = malloc_usable_size(ptr);
 
-    ptr = realloc (ptr, new_size);
+    ptr = realloc(ptr, new_size);
 
     // (ptr)
 

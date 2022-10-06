@@ -3,3 +3,4 @@
 #include <string.h>
 #include <malloc.h>
 void* realloc_(void* ptr, size_t new_size);
+void* calloc_(size_t length);
