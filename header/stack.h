@@ -49,6 +49,7 @@ enum stack_error_list {
     INVALID_HASH =          0b000100000,
     DAMAGED_LEFT_CANARY =   0b001000000,
     DAMAGED_RIGHT_CANARY =  0b010000000,
+    NULL_PTR =              0b100000000
 };
 
 // TODO: There's a technic:
@@ -97,3 +98,5 @@ int check_stack_hash(Stack*); // TODO: static
 void* set_canaries(char* data, size_t length); // TODO: add stack
 
 int check_stack_canaries(Stack*);
+
+void stack_dump(Stack* stack, const char* file, int line, int status);

@@ -1,0 +1,16 @@
+DUMP was called from source/stack.c :: aosijfoisd :: 247
+The stack address: [0x7ffc7f7aa9b0]
+The data begining address: [0x2108eb0]
+...left canary : 000dead000 : 0x2108ea8
+..elem #1 : 1 : 0x2108eb0
+..elem #2 : 2 : 0x2108eb4
+..elem #3 : 3 : 0x2108eb8
+..elem #4 : 4 : 0x2108ebc
+..elem #5 : 5 : 0x2108ec0
+..elem #6 : 6 : 0x2108ec4
+..elem #7 : 7 : 0x2108ec8
+..elem #8 : 8 : 0x2108ecc
+..elem #9 : 9 : 0x2108ed0
+...right canary : 000dead000 : 0x2108ee0
+length of stack is : 10
+num of elem in stack is : 9
